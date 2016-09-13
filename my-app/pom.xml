@@ -3,13 +3,13 @@
   <groupId>com.mycompany.app</groupId>
   <artifactId>my-app</artifactId>
   <packaging>jar</packaging>
-  <version>40.0</version>
+  <version>1.0-SNAPSHOT</version>
   <name>my-app</name>
   <url>http://maven.apache.org</url>
   <scm>
-        <url>https://github.com/aparna876/test/tree/master</url>
-        <connection>scm:git:git:@github.com:aparna876/test.git</connection>
-        <developerConnection>scm:git:git@github.com:aparna876/test.git</developerConnection>
+        <url>https://github.com/aparna876/dev/tree/master</url>
+        <connection>scm:git:git:@github.com:aparna876/dev.git</connection>
+        <developerConnection>scm:git:git@github.com:aparna876/dev.git</developerConnection>
 	<tag>testingtag</tag>
 	</scm>
 	<build>
