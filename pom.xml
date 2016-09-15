@@ -109,4 +109,22 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  <profiles>
+        <profile>
+            <id>development</id>
+            <activation>
+                <activeByDefault>false</activeByDefault>
+                <property>
+                    <name>environment.type</name>
+                    <value>dev</value>
+                </property>
+            </activation>
+            <properties>
+                <crx.host>localhost</crx.host>
+                <crx.port>4502</crx.port>
+                <crx.userId>admin</crx.userId>
+                <crx.password>admin</crx.password>
+            </properties>
+        </profile>
+        </profiles>
 </project>
